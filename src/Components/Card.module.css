@@ -1,0 +1,69 @@
+.card {
+  height: 50.8rem;
+  width: 32.7rem;
+  background-color: var(--white);
+  border-radius: 1.3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+}
+.plan-type {
+  color: var(--third-color);
+  margin-bottom: 4rem;
+}
+.plan-price {
+  color: var(--third-color);
+  margin-bottom: 1rem;
+}
+.plan-text {
+  font-size: 1.6rem;
+  color: var(--third-color);
+  margin-bottom: 5.6rem;
+}
+.plan-list-features {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.plan-list-features li {
+  font-size: 1.6rem;
+  color: var(--fifth-color);
+}
+.plan-list-features li:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+.plan-list-features li:last-child {
+  margin-bottom: 3.2rem;
+}
+.button {
+  height: 5.6rem;
+  width: 17.1rem;
+  border: none;
+  border-radius: 2.8rem;
+  background-color: var(--second-color-light);
+  color: var(--first-color);
+  font-weight: 700;
+  font-size: 1.6rem;
+  font-family: "Kumbh Sans", sans-serif;
+}
+/* Card Plan Type Pro */
+.plan-type-pro {
+  background-color: var(--first-color);
+  background-image: url("../assets/home/bg-pattern-pricing.svg");
+  background-position: 50% -37.5rem;
+  background-repeat: no-repeat;
+}
+.plan-type-pro .plan-type,
+.plan-type-pro .plan-price,
+.plan-type-pro .plan-text,
+.plan-type-pro .plan-list-features li {
+  color: var(--white);
+}
+.plan-type-pro .plan-list-features li {
+  opacity: 0.75;
+}
+.plan-type-pro .button {
+  background-color: var(--white);
+}

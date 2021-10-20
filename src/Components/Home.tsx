@@ -1,5 +1,7 @@
 import classes from "./Home.module.css";
 import { Fragment } from "react";
+import Card from "./Card";
+import { cards } from "../db/index";
 
 function Home() {
   return (
@@ -26,6 +28,17 @@ function Home() {
           intuitive interface to improve productivity.
         </p>
         <button className={classes.button}>Get Started</button>
+        <section className={classes["cards-container"]}>
+          {cards.map((card, i) => (
+            <Card
+              key={i}
+              planType={card.planType}
+              planPrice={card.planPrice}
+              planText={card.planText}
+              planListFeatures={card.planListFeatures}
+            />
+          ))}
+        </section>
       </main>
     </Fragment>
   );

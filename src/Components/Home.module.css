@@ -22,7 +22,6 @@
 /* Main */
 .main {
   padding: 0 2.4rem;
-  margin-bottom: 10rem;
 }
 .main .title {
   font-size: 4rem;
@@ -43,6 +42,7 @@
   color: var(--white);
   font-size: 1.6rem;
   font-weight: 700;
+  font-family: "Kumbh Sans", sans-serif;
   height: 5.6rem;
   width: 17.1rem;
   border: none;
@@ -50,4 +50,10 @@
   display: block;
   margin: 0 auto;
   box-shadow: 0 0.5rem 2rem var(--second-color);
+  margin-bottom: 10rem;
+}
+.main .cards-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.2rem;
 }

@@ -3,11 +3,13 @@
 :root {
   --first-color: #5175ff;
   --second-color: #829cff;
+  --second-color-light: rgba(130, 156, 255, 15.26%);
   --third-color: #333950;
   --fourth-color: #25293a;
   --fifth-color: #747b95;
   --sixth-color: #f05b5b;
   --white: #ffffff;
+  --bg-color-top: #fafafa;
 }
 
 html {
@@ -23,6 +25,7 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   line-height: 2.8rem;
   margin: 0;
+  background: linear-gradient(var(--bg-color-top) 58%, var(--fourth-color) 58%);
 }
 
 /* Globales */
