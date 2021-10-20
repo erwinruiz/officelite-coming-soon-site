@@ -1,0 +1,53 @@
+/* Header */
+.header {
+  background-image: url("../assets/home/bg-pattern-header.svg");
+  background-size: 45.8rem;
+  background-position: 50% -17rem;
+  background-repeat: no-repeat;
+  height: 41.2rem;
+  padding-top: 4.6rem;
+}
+.logo {
+  height: 3rem;
+  width: 15.5rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+}
+.charts {
+  width: 19rem;
+  display: block;
+  margin: 0 auto;
+}
+/* Main */
+.main {
+  padding: 0 2.4rem;
+  margin-bottom: 10rem;
+}
+.main .title {
+  font-size: 4rem;
+  line-height: 4.8rem;
+  text-align: center;
+  color: var(--third-color);
+  margin-bottom: 2.4rem;
+}
+.main .text-content {
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--fifth-color);
+  line-height: 2.6rem;
+  margin-bottom: 2.4rem;
+}
+.main .button {
+  background-color: var(--first-color);
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 700;
+  height: 5.6rem;
+  width: 17.1rem;
+  border: none;
+  border-radius: 2.8rem;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 0.5rem 2rem var(--second-color);
+}

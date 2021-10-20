@@ -7,6 +7,7 @@
   --fourth-color: #25293a;
   --fifth-color: #747b95;
   --sixth-color: #f05b5b;
+  --white: #ffffff;
 }
 
 html {
@@ -25,6 +26,14 @@ body {
 }
 
 /* Globales */
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
 h1 {
   font-size: 5.6rem;
   line-height: 6.4rem;
