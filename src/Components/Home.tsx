@@ -2,6 +2,7 @@ import classes from "./Home.module.css";
 import { Fragment } from "react";
 import Card from "./Card";
 import { cards } from "../db/index";
+import Countdown from "./Countdown";
 
 function Home() {
   return (
@@ -39,6 +40,7 @@ function Home() {
             />
           ))}
         </section>
+        <Countdown />
       </main>
     </Fragment>
   );
