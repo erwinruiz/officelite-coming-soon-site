@@ -1,5 +1,6 @@
 import classes from "./Card.module.css";
 import { Card as Props } from "./helpers/types";
+import Button from "./UI/Button";
 
 function Card(props: Props) {
   const { planType, planPrice, planText, planListFeatures } = props;
@@ -18,7 +19,7 @@ function Card(props: Props) {
         <li>{planListFeatures.second}</li>
         <li>{planListFeatures.third}</li>
       </ul>
-      <button className={classes.button}>Try for Free</button>
+      <Button text="Try for Free" className={classes.button} />
     </section>
   );
 }

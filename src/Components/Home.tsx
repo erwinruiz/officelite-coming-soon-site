@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import Card from "./Card";
 import { cards } from "../db/index";
 import Countdown from "./Countdown";
+import Button from "./UI/Button";
 
 function Home() {
   return (
@@ -28,7 +29,7 @@ function Home() {
           projects. Officelite is the new collaboration platform built with an
           intuitive interface to improve productivity.
         </p>
-        <button className={classes.button}>Get Started</button>
+        <Button text="Get Started" className={classes.button} />
         <section className={classes["cards-container"]}>
           {cards.map((card, i) => (
             <Card

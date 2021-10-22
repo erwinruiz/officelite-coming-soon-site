@@ -1,4 +1,5 @@
 import classes from "./Countdown.module.css";
+import Button from "./UI/Button";
 
 function Countdown() {
   return (
@@ -24,7 +25,7 @@ function Countdown() {
           <p className={classes.text}>Sec</p>
         </div>
       </div>
-      <button>Get Started</button>
+      <Button text="Get Started" className={classes.button} />
     </section>
   );
 }

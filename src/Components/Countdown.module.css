@@ -38,16 +38,10 @@
   font-size: 1.2rem;
   opacity: 0.5;
 }
-.countdown-container button {
+.countdown-container .button {
   background-color: var(--first-color);
   color: var(--white);
-  font-size: 1.6rem;
-  font-weight: 700;
-  font-family: "Kumbh Sans", sans-serif;
-  height: 5.6rem;
-  width: 17.1rem;
-  border: none;
-  border-radius: 2.8rem;
-  display: block;
-  margin: 0 auto;
+}
+.countdown-container .button:hover {
+  background-color: var(--second-color);
 }

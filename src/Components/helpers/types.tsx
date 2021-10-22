@@ -8,3 +8,9 @@ export type Card = {
     third: string;
   };
 };
+
+export type Button = {
+  text: string;
+  className?: string;
+};
+
