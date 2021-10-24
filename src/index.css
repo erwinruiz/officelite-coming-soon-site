@@ -2,9 +2,10 @@
 
 :root {
   --first-color: #5175ff;
+  --first-color-button: rgba(81, 117, 255, 15.26%);
+  --first-color-button-hover: rgba(81, 117, 255, 25%);
+  --first-color-countdown-square: rgba(81, 117, 255, 10%);
   --second-color: #829cff;
-  --second-color-light: rgba(130, 156, 255, 15.26%);
-  --second-color-light-hover: rgba(130, 156, 255, 25%);
   --third-color: #333950;
   --fourth-color: #25293a;
   --fifth-color: #747b95;
@@ -26,7 +27,11 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   line-height: 2.8rem;
   margin: 0;
-  background: linear-gradient(var(--bg-color-top) 58%, var(--fourth-color) 58%);
+  min-height: 100vh;
+  min-width: 100vw;
+  background: url("./assets/home/bg-pattern-header.svg") no-repeat 50% -17rem/
+      45.8rem,
+    linear-gradient(var(--bg-color-top) 58%, var(--fourth-color) 58%);
 }
 
 /* Globales */

@@ -1,9 +1,22 @@
 import classes from "./Countdown.module.css";
 import Button from "./UI/Button";
+import { Countdown as TypeCountdown } from "./helpers/types";
+import { useHistory } from "react-router-dom";
 
-function Countdown() {
+function Countdown(props: TypeCountdown) {
+  const { needButton } = props;
+  const history = useHistory();
+
+  const signUpHandler = () => {
+    history.push("/signup");
+  };
+
   return (
-    <section className={classes["countdown-container"]}>
+    <section
+      className={`${classes["countdown-container"]} ${
+        !needButton && classes["sign-up"]
+      }`}
+    >
       <h3>
         Coming <span>4 Nov 2020</span>
       </h3>
@@ -25,7 +38,13 @@ function Countdown() {
           <p className={classes.text}>Sec</p>
         </div>
       </div>
-      <Button text="Get Started" className={classes.button} />
+      {needButton && (
+        <Button
+          text="Get Started"
+          className={classes.button}
+          onClick={signUpHandler}
+        />
+      )}
     </section>
   );
 }

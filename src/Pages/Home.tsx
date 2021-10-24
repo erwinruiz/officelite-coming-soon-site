@@ -1,11 +1,18 @@
 import classes from "./Home.module.css";
 import { Fragment } from "react";
-import Card from "./Card";
+import Card from "../Components/Card";
 import { cards } from "../db/index";
-import Countdown from "./Countdown";
-import Button from "./UI/Button";
+import Countdown from "../Components/Countdown";
+import Button from "../Components/UI/Button";
+import { useHistory } from "react-router-dom";
 
 function Home() {
+  const history = useHistory();
+
+  const signUpHandler = () => {
+    history.push("/signup");
+  };
+
   return (
     <Fragment>
       <header className={classes.header}>
@@ -29,7 +36,11 @@ function Home() {
           projects. Officelite is the new collaboration platform built with an
           intuitive interface to improve productivity.
         </p>
-        <Button text="Get Started" className={classes.button} />
+        <Button
+          text="Get Started"
+          className={classes.button}
+          onClick={signUpHandler}
+        />
         <section className={classes["cards-container"]}>
           {cards.map((card, i) => (
             <Card
@@ -41,7 +52,7 @@ function Home() {
             />
           ))}
         </section>
-        <Countdown />
+        <Countdown needButton={true} />
       </main>
     </Fragment>
   );

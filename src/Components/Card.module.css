@@ -38,11 +38,11 @@
   margin-bottom: 3.2rem;
 }
 .button {
-  background-color: var(--second-color-light);
+  background-color: var(--first-color-button);
   color: var(--first-color);
 }
 .button:hover {
-  background-color: var(--second-color-light-hover);
+  background-color: var(--first-color-button-hover);
 }
 /* Card Plan Type Pro */
 .plan-type-pro {

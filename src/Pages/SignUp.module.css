@@ -1,0 +1,32 @@
+.header {
+  padding-top: 4.6rem;
+}
+.logo {
+  height: 3rem;
+  width: 15.5rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 7.7rem;
+}
+.main {
+  padding: 0 2.4rem 10rem;
+  background-image: url("../assets/home/bg-pattern-footer.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 109%;
+  background-size: 120.2rem;
+}
+.main .title {
+  font-size: 4rem;
+  line-height: 4.8rem;
+  text-align: center;
+  color: var(--third-color);
+  margin-bottom: 1.7rem;
+}
+.main .text-content {
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--fifth-color);
+  line-height: 2.6rem;
+  margin-bottom: 6.4rem;
+}
+

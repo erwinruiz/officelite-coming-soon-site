@@ -1,10 +1,5 @@
 /* Header */
 .header {
-  background-image: url("../assets/home/bg-pattern-header.svg");
-  background-size: 45.8rem;
-  background-position: 50% -17rem;
-  background-repeat: no-repeat;
-  height: 41.2rem;
   padding-top: 4.6rem;
 }
 .logo {
@@ -17,7 +12,7 @@
 .charts {
   width: 19rem;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 6.4rem;
 }
 /* Main */
 .main {

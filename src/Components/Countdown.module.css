@@ -45,3 +45,19 @@
 .countdown-container .button:hover {
   background-color: var(--second-color);
 }
+/* Sign up page */
+.sign-up {
+  margin-bottom: 50rem; /* Temporal margin */
+}
+.sign-up h3 {
+  color: var(--third-color);
+}
+.sign-up .countdown-square {
+  background-color: var(--first-color-countdown-square);
+}
+.sign-up .number {
+  color: var(--first-color);
+}
+.sign-up .text {
+  color: var(--third-color);
+}
