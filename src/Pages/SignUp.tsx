@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import Countdown from "../Components/Countdown";
+import Form from "../Components/Form";
 import classes from "./SignUp.module.css";
 
 function SignUp() {
@@ -20,6 +21,7 @@ function SignUp() {
           development and getting ready for official launch soon.
         </p>
         <Countdown needButton={false} />
+        <Form />
       </main>
     </Fragment>
   );
