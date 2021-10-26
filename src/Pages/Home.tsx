@@ -5,6 +5,7 @@ import { cards } from "../db/index";
 import Countdown from "../Components/Countdown";
 import Button from "../Components/UI/Button";
 import { useHistory } from "react-router-dom";
+import Header from "../Components/Header";
 
 function Home() {
   const history = useHistory();
@@ -15,18 +16,12 @@ function Home() {
 
   return (
     <Fragment>
-      <header className={classes.header}>
-        <img
-          className={classes.logo}
-          src="./assets/shared/logo.svg"
-          alt="logo"
-        />
-        <img
-          className={classes.charts}
-          src="./assets/home/illustration-charts.svg"
-          alt="illustration charts"
-        />
-      </header>
+      <Header />
+      <img
+        className={classes.charts}
+        src="./assets/home/illustration-charts.svg"
+        alt="illustration charts"
+      />
       <main className={classes.main}>
         <h1 className={classes.title}>
           A simple solution to complex tasks is coming soon

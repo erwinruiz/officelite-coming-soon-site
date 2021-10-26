@@ -1,18 +1,13 @@
 import { Fragment } from "react";
 import Countdown from "../Components/Countdown";
 import Form from "../Components/Form";
+import Header from "../Components/Header";
 import classes from "./SignUp.module.css";
 
 function SignUp() {
   return (
     <Fragment>
-      <header className={classes.header}>
-        <img
-          className={classes.logo}
-          src="./assets/shared/logo.svg"
-          alt="logo"
-        />
-      </header>
+      <Header />
       <main className={classes.main}>
         <h1 className={classes.title}>Work smarter. Save time.</h1>
         <p className={classes["text-content"]}>

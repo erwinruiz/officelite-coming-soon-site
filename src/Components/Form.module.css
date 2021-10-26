@@ -87,6 +87,7 @@
   padding: 2.4rem 3.2rem;
   width: 27.9rem;
   cursor: pointer;
+  box-shadow: 0 1.5rem 2rem var(--box-shadow);
 }
 .form .plan-options .plan {
   padding: 1.75rem 0;
