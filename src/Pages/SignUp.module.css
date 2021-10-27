@@ -1,14 +1,8 @@
-body {
-  background: url("../assets/home/bg-pattern-header.svg") no-repeat 50% -17rem/
-      45.8rem,
-    linear-gradient(var(--bg-color-top) 73%, var(--fourth-color) 73%);
-}
 .main {
   padding: 0 2.4rem 10rem;
-  background-image: url("../assets/sign-up/bg-pattern-side.svg");
-  background-repeat: no-repeat;
-  background-position: 50% -335%;
-  background-size: 120.2rem;
+  background: url("../assets/sign-up/bg-pattern-side.svg") no-repeat 50% -333%/
+      120.2rem,
+    linear-gradient(transparent 69%, var(--fourth-color) 69%);
 }
 .main .title {
   font-size: 4rem;

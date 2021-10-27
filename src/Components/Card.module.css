@@ -1,6 +1,6 @@
 .card {
   height: 50.8rem;
-  width: 32.7rem;
+  width: 100%;
   background-color: var(--white);
   border-radius: 1.3rem;
   text-align: center;
@@ -46,10 +46,8 @@
 }
 /* Card Plan Type Pro */
 .plan-type-pro {
-  background-color: var(--first-color);
-  background-image: url("../assets/home/bg-pattern-pricing.svg");
-  background-position: 50% -37.5rem;
-  background-repeat: no-repeat;
+  background: url("../assets/home/bg-pattern-pricing.svg") no-repeat 50% -37.5rem,
+    var(--first-color);
 }
 .plan-type-pro .plan-type,
 .plan-type-pro .plan-price,
@@ -65,4 +63,40 @@
 }
 .plan-type-pro .button:hover {
   filter: brightness(150%);
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .card {
+    height: 31.6rem;
+    padding: 4.8rem;
+    display: grid;
+    grid-template-columns: 58% 42%;
+    text-align: left;
+    align-content: center;
+  }
+  .plan-type {
+    margin-bottom: 1.6rem;
+    grid-column: 1 / 2;
+  }
+  .plan-price {
+    grid-column: 1 / 2;
+    margin-bottom: 1rem;
+  }
+  .plan-text {
+    grid-column: 1 / 2;
+    margin-bottom: 2.4rem;
+  }
+  .plan-list-features {
+    margin-top: 1.7rem;
+    grid-column: 2 / 3;
+    grid-row: 1 / 5;
+  }
+  .card .button {
+    grid-column: 1 / 2;
+    margin-left: 0;
+  }
+  .plan-type-pro {
+    background-position: -32rem 50%;
+  }
 }
