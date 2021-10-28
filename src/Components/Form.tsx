@@ -38,8 +38,6 @@ function Form() {
     } else {
       setIsInvalidEmail(false);
     }
-    console.log(name);
-    console.log(email);
   };
 
   const submitHandler = (e: React.FormEvent) => {

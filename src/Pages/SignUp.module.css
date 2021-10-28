@@ -18,3 +18,19 @@
   line-height: 2.6rem;
   margin-bottom: 6.4rem;
 }
+
+/* Tablet */
+@media (min-width: 768px) {
+  body {
+    background-image: none;
+  }
+  .main {
+    background: url("../assets/sign-up/bg-pattern-side.svg") no-repeat 50% 19rem/
+        145.4rem,
+      linear-gradient(transparent 68%, var(--fourth-color) 68%);
+  }
+  .main .text-content {
+    width: 56rem;
+    margin: 0 auto 4rem;
+  }
+}

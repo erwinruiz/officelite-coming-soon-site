@@ -103,3 +103,16 @@
   padding-bottom: 0 !important;
   border: none !important;
 }
+
+/* Tablet */
+@media (min-width: 768px) {
+  .form {
+    padding: 4rem 4.3rem;
+    height: 50.8rem;
+    width: 44.5rem;
+  }
+  .form .plan-options {
+    padding: 2.4rem 3.2rem;
+    width: 35.9rem;
+  }
+}
