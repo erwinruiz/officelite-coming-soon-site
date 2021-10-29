@@ -100,3 +100,29 @@
     background-position: -32rem 50%;
   }
 }
+
+/* Desktop - Widescreen */
+@media (min-width: 1440px) {
+  .card {
+    height: 50.8rem;
+    padding: 4rem 6.5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .plan-type {
+    margin-bottom: 4rem;
+  }
+  .plan-text {
+    margin-bottom: 5.6rem;
+  }
+  .plan-list-features {
+    margin-top: 0rem;
+  }
+  .card .button {
+    margin: 0 auto;
+  }
+  .plan-type-pro {
+    background-position: 50% -37.5rem;
+  }
+}

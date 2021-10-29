@@ -22,7 +22,7 @@
 /* Tablet */
 @media (min-width: 768px) {
   body {
-    background-image: none;
+    /* background-image: none; */
   }
   .main {
     background: url("../assets/sign-up/bg-pattern-side.svg") no-repeat 50% 19rem/

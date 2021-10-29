@@ -6,6 +6,7 @@
   width: 15.5rem;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 /* Tablet */
@@ -15,5 +16,16 @@
   }
   .logo {
     margin-left: 3.9rem;
+  }
+}
+
+
+/* Desktop - Widescreen */
+@media (min-width: 1440px) {
+  .header {
+    margin: 8.1rem 0 10.2rem;
+  }
+  .logo {
+    margin-left: 16.5rem;
   }
 }

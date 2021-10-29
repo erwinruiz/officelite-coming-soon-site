@@ -56,7 +56,6 @@
   }
   .first-section .charts {
     width: 28.1rem;
-    width: 30rem;
     margin: 0 0 0 auto;
   }
   .first-section .section-text {
@@ -73,5 +72,35 @@
   }
   .main .cards-container {
     row-gap: 2.4rem;
+  }
+}
+
+/* Desktop - Widescreen */
+@media (min-width: 1440px) {
+  .main {
+    padding: 0 16.5rem 9.1rem;
+    background: url("../assets/home/bg-pattern-footer.svg") no-repeat -70.5rem 35rem /
+        203.6rem,
+      linear-gradient(transparent 61%, var(--fourth-color) 61%);
+  }
+  .first-section {
+    margin-bottom: 12rem;
+  }
+  .first-section .title {
+    font-size: 5.6rem;
+    line-height: 6.4rem;
+  }
+  .first-section .charts {
+    width: 50rem;
+  }
+  .section-text .text-content {
+    font-size: 1.8rem;
+    margin-bottom: 3.2rem;
+  }
+  .main .cards-container {
+    row-gap: 0;
+    flex-direction: row;
+    column-gap: 3rem;
+    margin-bottom: 8.2rem;
   }
 }

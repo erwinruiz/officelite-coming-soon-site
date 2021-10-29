@@ -68,3 +68,11 @@ h3 {
     background-size: 66.6rem;
   }
 }
+
+/* Desktop - Widescreen */
+@media (min-width: 1440px) {
+  body {
+    background-size: 113.4rem;
+    background-position: 64.5rem -44rem;
+  }
+}
