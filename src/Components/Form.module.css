@@ -110,6 +110,7 @@
     padding: 4rem 4.3rem;
     height: 50.8rem;
     width: 44.5rem;
+    box-shadow: 0 1.5rem 5rem var(--box-shadow-form);
   }
   .form .plan-options {
     padding: 2.4rem 3.2rem;

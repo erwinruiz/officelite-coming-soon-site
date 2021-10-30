@@ -15,8 +15,12 @@ function SignUp() {
           available only to early subscribers. We are moving into final
           development and getting ready for official launch soon.
         </p>
-        <Countdown needButton={false} />
-        <Form />
+        <div className={classes.countdown}>
+          <Countdown needButton={false} />
+        </div>
+        <div className={classes.form}>
+          <Form />
+        </div>
       </main>
     </Fragment>
   );

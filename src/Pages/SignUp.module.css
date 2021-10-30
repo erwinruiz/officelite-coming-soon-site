@@ -34,3 +34,36 @@
     margin: 0 auto 4rem;
   }
 }
+
+/* Desktop - Widescreen */
+@media (min-width: 1440px) {
+  .main {
+    background: none;
+    padding: 0 16.5rem 9.1rem;
+    display: grid;
+    grid-template-columns: 48% 52%;
+    align-items: center;
+    justify-items: flex-start;
+  }
+  .main .title {
+    font-size: 5.6rem;
+    text-align: left;
+    grid-column: 1 / 2;
+    margin-bottom: 0;
+  }
+  .main .text-content {
+    font-size: 1.8rem;
+    text-align: left;
+    grid-column: 1 / 2;
+    margin-bottom: 0;
+    width: initial;
+  }
+  .main .countdown {
+    grid-column: 1 / 2;
+  }
+  .main .form {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    margin-left: auto;
+  }
+}

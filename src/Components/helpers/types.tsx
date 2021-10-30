@@ -12,9 +12,9 @@ export type Card = {
 export type Button = {
   text: string;
   className?: string;
-  onClick? : () => void;
+  onClick?: () => void;
 };
 
 export type Countdown = {
-    needButton: Boolean
-}
+  needButton: Boolean;
+};
