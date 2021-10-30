@@ -33,11 +33,6 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   line-height: 2.8rem;
   margin: 0;
-  min-height: 100vh;
-  min-width: 100vw;
-  background: url("./assets/home/bg-pattern-header.svg") no-repeat 50% -17rem/
-    45.8rem;
-  background-color: var(--bg-color-top);
   overflow-x: hidden;
 }
 
@@ -61,27 +56,4 @@ h2 {
 h3 {
   font-size: 1.6rem;
   line-height: 4.8rem;
-}
-
-/* Tablet */
-@media (min-width: 768px) {
-  body {
-    background-position: 39rem -16rem;
-    background-size: 66.6rem;
-  }
-}
-
-/* Desktop - Widescreen */
-@media (min-width: 1440px) {
-  body {
-    background-size: 113.4rem;
-    background-position: 64.5rem -44rem;
-  }
-
-  /* SignUp Page */
-  body {
-    background: url("./assets/sign-up/bg-pattern-side.svg") no-repeat 25rem -79rem/
-        203.6rem,
-      linear-gradient(to right, transparent 72%, var(--fourth-color) 72%);
-  }
 }

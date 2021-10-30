@@ -64,7 +64,7 @@
 
 /* Tablet */
 @media (min-width: 768px) {
-  .countdown-container {
+  .countdown-timer {
     margin-bottom: 4.8rem;
   }
   .countdown-square {

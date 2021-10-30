@@ -1,0 +1,33 @@
+.container {
+  background: url("./assets/home/bg-pattern-header.svg") no-repeat 50% -17rem/
+    45.8rem;
+  background-color: var(--bg-color-top);
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .container {
+    background-position: 40.8rem -15rem;
+    background-size: 66.6rem;
+  }
+
+  .bg-signup {
+    background-image: none;
+  }
+}
+
+/* Desktop - Widescreen */
+@media (min-width: 1440px) {
+  .container {
+    background-size: 113.4rem;
+    background-position: 64.5rem -44rem;
+  }
+
+  .bg-signup {
+    background: url("./assets/sign-up/bg-pattern-side.svg") no-repeat 37rem -71.5rem/
+        185rem,
+      linear-gradient(to right, transparent 72%, var(--fourth-color) 72%);
+  }
+}

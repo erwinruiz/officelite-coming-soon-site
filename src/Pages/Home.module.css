@@ -46,7 +46,7 @@
     padding: 0 3.9rem 10rem;
     background: url("../assets/home/bg-pattern-footer.svg") no-repeat 50%
         99.7rem / 148rem,
-      linear-gradient(transparent 50%, var(--fourth-color) 50%);
+      linear-gradient(transparent 50.5%, var(--fourth-color) 50.5%);
   }
   .first-section {
     display: flex;
@@ -59,7 +59,7 @@
     margin: 0 0 0 auto;
   }
   .first-section .section-text {
-    flex: 0.87;
+    flex: 0.83;
     margin-bottom: 5rem;
   }
   .first-section .title,
@@ -85,6 +85,9 @@
   }
   .first-section {
     margin-bottom: 12rem;
+  }
+  .first-section .section-text {
+    flex: 0.87;
   }
   .first-section .title {
     font-size: 5.6rem;
