@@ -3,6 +3,8 @@
   background: url("../assets/sign-up/bg-pattern-side.svg") no-repeat 50% -333%/
       120.2rem,
     linear-gradient(transparent 69%, var(--fourth-color) 69%);
+  max-width: 144rem;
+  margin: 0 auto;
 }
 .main .title {
   font-size: 4rem;
@@ -24,7 +26,7 @@
   .main {
     background: url("../assets/sign-up/bg-pattern-side.svg") no-repeat 50% 19rem/
         145.4rem,
-      linear-gradient(transparent 68%, var(--fourth-color) 68%);
+      linear-gradient(transparent 66.5%, var(--fourth-color) 66.5%);
   }
   .main .text-content {
     width: 56rem;

@@ -14,10 +14,14 @@ function App() {
     <div className={CSS_CLASSES}>
       <Switch>
         <Route path="/" exact>
-          <Home />
+          <div className={classes["home-container"]}>
+            <Home />
+          </div>
         </Route>
         <Route path="/signup">
-          <SignUp />
+          <div className={classes["signup-container"]}>
+            <SignUp />
+          </div>
         </Route>
       </Switch>
     </div>

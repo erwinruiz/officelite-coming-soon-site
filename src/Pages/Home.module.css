@@ -3,6 +3,9 @@
   background: url("../assets/home/bg-pattern-footer.svg") no-repeat 50% 107% /
       120.2rem,
     linear-gradient(transparent 56%, var(--fourth-color) 56%);
+
+  max-width: 144rem;
+  margin: 0 auto;
 }
 .main .charts {
   width: 19rem;
@@ -79,9 +82,7 @@
 @media (min-width: 1440px) {
   .main {
     padding: 0 16.5rem 9.1rem;
-    background: url("../assets/home/bg-pattern-footer.svg") no-repeat -70.5rem 35rem /
-        203.6rem,
-      linear-gradient(transparent 61%, var(--fourth-color) 61%);
+    background: none;
   }
   .first-section {
     margin-bottom: 12rem;
